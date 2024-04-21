@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="SignUpStyle.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Stranger Things Fan Page</title>
+</head>
+<body>
+    <div class="log">
+        <a href="LogIn.html">
+            <button class="button">
+                Log In
+            </button>
+        </a>
+        <a href="SignUp.html">
+            <button class="button">
+                Sign Up
+            </button>
+        </a>
+        <a href="Help1.html" class="help">
+            help
+        </a>
+        <span>?</span>
+    </div>
+    <div class="profile">
+        <img src="vecna.jpeg" alt="vecna's picture">
+    </div>
+    <div class="outer">
+        <div class="inner">
+            <form action="LogIn.html">
+                <div class="fname">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Cliford Vincent" size="25" required>
+                </div>
+                <div class="mname">
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" id="mname" name="mname" placeholder="Castro" size="25" required>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Gamit" size="25" required>
+                </div>
+                <div class="email">
+                    <label for="email">@ E-mail Address:</label>
+                    <input type="email" id="email" name="email" placeholder="gamitclifordvincentc@gmail.com" size="28" required>
+                </div>
+                <div class="password">
+                    <label for="pass">&#x1F512 Password:</label>
+                    <input type="password" id="pass" name="pass" size="25" required>
+                </div>
+                <div class="confirm">
+                    <label for="con-pass">&#x1F512 Confirm Password:</label>
+                    <input type="password" id="con-pass" name="con-pass" size="25" required>
+                </div>
+                <div class="number">
+                    <label for="phone">Phone#</label>
+                    <input type="tel" id="phone" name="phone" placeholder="09122429274" size="9" required>
+                    <label for="bday">Birthdate:</label>
+                    <input type="date" id="bday" name="bday" required>
+                </div>
+                <div class="gender">
+                    <label>Gender:</label>
+                    <label for="m">Male</label>
+                    <input type="radio" id="m" name="gender" value="Male" required>
+                    <label for="f">Female</label>
+                    <input type="radio" id="f" name="gender" value="Female" required>
+                    <label for="o">Other</label>
+                    <input type="radio" id="o" name="gender" value="Other" required>
+                </div>
+                <div class="character">
+                    <label for="favorite">Favorite Character in Stranger Things:</label>
+                    <select id="favorite" name="favorite" required>
+                        <option value="Eleven">Eleven</option>
+                        <option value="Mike">Mike</option>
+                        <option value="Will">Will</option>
+                        <option value="Lucas">Lucas</option>
+                        <option value="Max">Max</option>
+                        <option value="Dustin">Dustin</option>
+                        <option value="Steve">Steve</option>
+                        <option value="Jim">Jim</option>
+                        <option value="Nancy">Nancy</option>
+                        <option value="Joyce">Joyce</option>
+                        <option value="Dr.Brenner">Dr.Brenner</option>
+                        <option value="Eddie">Eddie</option>
+                        <option value="Jonathan">Jonathan</option>
+                        <option value="Robin">Robin</option>
+                        <option value="Billy">Billy</option>
+                        <option value="Dr.Brenner">Dr.Brenner</option>
+                        <option value="Murray">Murray</option>
+                        <option value="Erica">Erica</option>
+                        <option value="Dr.Brenner">Dr.Brenner</option>
+                    </select>
+                </div>
+                <br>
+                <div class="butts">
+                    <input type="reset">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
